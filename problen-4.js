@@ -5,7 +5,7 @@ const student = {
   name: 'jluas',
   age: 44
 }
-console.log(student.age)
+// console.log(student.age)
 
 
 const data = {
@@ -17,7 +17,7 @@ const data = {
   }]
 }
 
-console.log(data.location[0].city)
+// console.log(data.location[0].city)
 
 
 const user = {
@@ -49,21 +49,26 @@ Challenging
 ● Console the value of email
 */
 const email = user['email']
-console.log(email)
+// console.log(email)
 /*
 ● Console the value of address*/
 const address = user['address']
-console.log(address)
+// console.log(address)
 
 /*
 ● Console the value of city*/
 const city = user['address']['city']
-console.log(city)
+// console.log(city)
 /*
 ● Console the value of lat*/
-
+const lat = user['address']['geo']['lat']
+// console.log(lat);
 
 
 /*
 ● Console the value of company
-name*/
+name
+*/
+
+const companyName = user['company']['name']
+console.log(companyName);
